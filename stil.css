@@ -1,0 +1,93 @@
+body {
+	background-color: AliceBlue;
+    padding-left: 40px;
+	padding-right: 40px;
+}
+
+/*prvi dio: jedan*/
+#zadatak1 h1{
+	color:Crimson;
+    font-family:Arial;
+	font-style:Italic;
+    font-size:50px;
+    font-weight:bold; 
+    background-color:Salmon; 
+	margin:0;
+    margin-top: 15px;
+	text-align:center
+}
+
+#zadatak1 ol.prva {
+    font-family: Calibri;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+	text-align:center;
+}
+
+#zadatak1 ol.prva li {
+    display: inline;
+    background-color: Crimson;
+
+    margin-left: 3px;
+    margin-top: 10px;
+    padding: 0 20px;
+}
+/*prvi dio: dva*/
+#zadatak1 .druga, #zadatak2 .prva {
+    border-top: 3px solid DarkRed;
+    padding-top: 20px;
+    width: 500px;
+	}
+	
+#zadatak1 ol.druga h2{
+	color:Crimson;
+	font-style:Italic;
+	text-shadow:5px 5px 4px gray;
+}
+#zadatak1 .druga {
+    font-family: Arial;
+    font-size: 20px;
+    color: Salmon;
+    list-style-type:square;
+}
+
+#zadatak1 .druga  span{
+    color: DarkRed;
+    font-weight: bold;
+	font-style:Italic;
+	text-decoration: underline;
+}
+
+#zadatak1 .druga, #zadatak2 .prva{
+    padding-top: 20px;
+    width: 600px;
+	float: left;
+}
+
+/*drugi dio*/
+#zadatak2 .prva{
+	font-family: Arial;
+    font-size: 20px;
+    color: Salmon;
+    list-style-type:square;
+    padding-top: 20px;
+    width: 600px;
+	float: right;
+}
+
+#zadatak2 .prva h1 {
+	font-family: Arial;
+    color:Crimson;
+	font-style:Italic;
+	text-shadow:5px 5px 5px gray;
+}
+
+#zadatak2 .prva h2 {
+	font-size: 24px;
+	color: DarkRed;
+	text-decoration: underline;
+}
+    
+
